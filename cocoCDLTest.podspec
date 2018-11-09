@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = "cocoCDLTest/cocoCDLTest/*.{h,m}"
-  s.frameworks = 'Foundation', 'UIKit'
+  s.frameworks = 'Foundation', 'UIKit', 'cocoCDLFram'
 
 end
