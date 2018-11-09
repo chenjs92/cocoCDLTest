@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "cocoCDLTest"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.summary          = "一个测试cocopods库"
   s.description      = "一个使用OC实现的整数求和."
   s.homepage         = "https://github.com/chenjs92/cocoCDLTest"

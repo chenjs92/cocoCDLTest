@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <cocoCDLFram/subClass.h>
 @interface sumClass : NSObject
 + (int) sum:(int)A and:(int)B;
+
 @end

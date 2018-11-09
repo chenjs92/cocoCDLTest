@@ -10,6 +10,7 @@
 
 @implementation sumClass
 + (int) sum:(int)A and:(int)B{
+    NSLog(@"%d",[subClass sub:A and:B]);
     return A+B;
 }
 @end

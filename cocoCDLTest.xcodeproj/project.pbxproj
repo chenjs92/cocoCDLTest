@@ -11,6 +11,7 @@
 		DEF80C342192CF8A00BA9A80 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEF80C322192CF8A00BA9A80 /* Info.plist */; };
 		DEF80C372192CFB100BA9A80 /* sumClass.h in Headers */ = {isa = PBXBuildFile; fileRef = DEF80C352192CFB100BA9A80 /* sumClass.h */; };
 		DEF80C382192CFB100BA9A80 /* sumClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF80C362192CFB100BA9A80 /* sumClass.m */; };
+		DEF80C77219526F200BA9A80 /* cocoCDLFram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF80C76219526F200BA9A80 /* cocoCDLFram.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		DEF80C322192CF8A00BA9A80 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = cocoCDLTest/Info.plist; sourceTree = "<group>"; };
 		DEF80C352192CFB100BA9A80 /* sumClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sumClass.h; path = cocoCDLTest/sumClass.h; sourceTree = "<group>"; };
 		DEF80C362192CFB100BA9A80 /* sumClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = sumClass.m; path = cocoCDLTest/sumClass.m; sourceTree = "<group>"; };
+		DEF80C76219526F200BA9A80 /* cocoCDLFram.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cocoCDLFram.framework; path = cocoCDLTest/cocoCDLFram.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEF80C77219526F200BA9A80 /* cocoCDLFram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +54,7 @@
 		DEF80C282192CF5800BA9A80 /* cocoCDLTest */ = {
 			isa = PBXGroup;
 			children = (
+				DEF80C76219526F200BA9A80 /* cocoCDLFram.framework */,
 				DEF80C352192CFB100BA9A80 /* sumClass.h */,
 				DEF80C362192CFB100BA9A80 /* sumClass.m */,
 				DEF80C312192CF8A00BA9A80 /* cocoCDLTest.h */,
@@ -267,6 +271,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cocoCDLTest/cocoCDLTest",
+				);
 				INFOPLIST_FILE = cocoCDLTest/cocoCDLTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -287,6 +295,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/cocoCDLTest/cocoCDLTest",
+				);
 				INFOPLIST_FILE = cocoCDLTest/cocoCDLTest/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

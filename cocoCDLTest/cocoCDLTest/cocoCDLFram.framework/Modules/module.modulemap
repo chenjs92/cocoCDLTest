@@ -1,0 +1,6 @@
+framework module cocoCDLFram {
+  umbrella header "cocoCDLFram.h"
+
+  export *
+  module * { export * }
+}
